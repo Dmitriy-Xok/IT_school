@@ -12,9 +12,37 @@
 	<link rel="stylesheet" type="text/css" href="css/mobile.css" />
   </head>
   <body>
-    <header>
-        
-    </header>
+	<div id="message"></div>
+	<form id="form_q" action="https://60376bfd5435040017722533.mockapi.io/form" method="post" class="form_ques">
+		<div class="form_ques__title">Задать вопрос</div>		
+		<input
+			type="text"
+			name="name"
+			value=""
+			required
+			placeholder="Фамилия Имя Отчество *"
+			maxlength="100"
+			pattern="^[А-Яа-яЁё\s-]+$"
+		/>		
+		<input
+			type="tel"
+			name="phone"
+			value=""
+			required
+			placeholder="Телефон *"
+			maxlength="20"
+			pattern="[0-9-+\s]+$"
+		/>		
+		<input
+			type="email"
+			name="email"
+			value=""
+			placeholder="Email"
+			maxlength="100"
+		/>
+		<button type="submit" class="form_ques__btn">Отправить запрос</button>	
+	</form>	
     <script src="./js/script.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
   </body>
 </html>
