@@ -1,5 +1,5 @@
 /.vscode
-/scss
-*.scss
-/fonts
+# /scss
+# *.scss
+# /fonts
 *.map

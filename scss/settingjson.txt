@@ -1,0 +1,15 @@
+{
+    "editor.minimap.enabled": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.startupEditor": "none",
+    "liveServer.settings.donotShowInfoMsg": false,
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }
+    ],
+}
